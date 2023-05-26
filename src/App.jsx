@@ -1,6 +1,6 @@
 import styles from './styles'
 
-import { Navbar, Hero, Stats, Billing, CardDeal, Business, Client, CTA, Footer, Testimonials } from './components';
+import { Navbar, Hero, Stats, Billing, CardDeal, Business, Clients, CTA, Footer, Testimonials } from './components';
 
 const App = () => {
   return (
@@ -27,7 +27,7 @@ const App = () => {
           <Billing />
           <CardDeal />
           <Testimonials />
-          <Client />
+          <Clients />
           <CTA />
           <Footer />
         </div>
